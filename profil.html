@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <script type="text/javascript" src="script2.js"></script>
+  
+  <link rel="icon" type="image/jpg" href="img/logo.jpg" />
+  <title>Brain Training Connexion</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/agency.min.css" rel="stylesheet">
+	<style>
+	input::placeholder {
+		color: #4b1bb9;
+      }
+	</style>
+</head>
+<body id="page-top">
+
+
+<!-- Barre du menu -->
+	  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		<div class="container">
+			  <!-- Merci de bien vouloir compléter le chemin -->
+			  <a class="navbar-brand js-scroll-trigger" href="file:///home/mon chemin vers l'archive/11704898_BOUIFLANE%20Maryam_ANGE%20NIRINA%20Michaela_11716941/index.html"><img src="img/logo.jpg"/>Brain Training</a>
+			  <input type="text" id="recherche" placeholder="rechercher..."/>
+			  <div>
+					<a class="btn btn-warning text-uppercase" style=" margin-left:10px; color:white;">OK</a>
+			  </div>
+			  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav text-uppercase ml-auto">
+						  <li class="nav-item">
+						  <li class="nav-item">
+							<!-- Merci de bien vouloir compléter le chemin -->
+							<a class="btn btn-success text-uppercase" href="file:///home/mon chemin vers l'archive/11704898_BOUIFLANE%20Maryam_ANGE%20NIRINA%20Michaela_11716941/index.html">Retourner à la page d'acceuil</a>
+						  </li>
+						  </li>						  
+					</ul>
+			  </div>
+		</div>
+	  </nav>
+
+	 <section class="page-section" id="contact">
+		
+			 
+				 <div id="titre" class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Entrez vos identifiants</h2>
+				 </div>
+				 
+				<div class="inscription" style="margin-left:58%; margin-top:5%; ">  
+					<h5 class="section-heading text-uppercase">Pour vous inscrire : </h5> 	
+				  <div class="form-group" id="form">
+						<input  type="text" class="casefoaj" id="nomUI" name="NomUser" placeholder="Nom d'utilisateur" ></input> <br/>
+						<input  type="text" class="casefoaj" id="nom" name="nom" placeholder="Nom" ></input> <br/>
+                        <input  type="text" class="casefoaj" id="prenom" name="prenom" placeholder="Prénom" ></textarea> <br/>
+						<input  type="email" class="casefoaj" id="adr" name="adresse" placeholder="Adresse mail" ></input> <br/>
+						<input  type="password" class="casefoaj" id="mdpI" name="motdepasse" placeholder="Mot de passe" ></input> <br/>
+				  </div>
+				  <div>
+					 <button type="submit" class="btn btn-warning text-uppercase" id="connex" style="background-color: #4b1bb9; color:white;" title="Se connecter" onclick="inscription()">Se connecter</button>
+				  </div>
+			   </div>
+			   
+			   <div class="connexion" style="margin-left:27%; margin-top:7%; position:absolute; top:30%;">  
+				<h5 class="section-heading text-uppercase">Pour vous connecter :</h5> 
+				  <div class="form-group" id="form">
+						<input  type="text" class="casefoaj" id="nomUC" name="NomUser" placeholder="Nom d'utilisateur" ></input> <br/>
+						<input  type="password" class="casefoaj" id="mdpC" name="motdepasse" placeholder="Mot de passe" ></input> <br/>
+				  </div>
+				 <div>
+					 <button type="submit" class="btn btn-warning text-uppercase" id="connex" style="background-color: #4b1bb9; color:white;" title="Se connecter" onclick="connexion()">Se connecter</button>
+				  </div>
+			   </div>
+		 
+	  </section>
+
+<!-- Footer -->
+	  <footer class="text-center">
+		<div class="blockquote-footer font-italic">Site réalisé dans le contexte du cour d'IHM : <a href="https://perso.liris.cnrs.fr/stephanie.jean-daubias/enseignement/IHM/" style="color:#4b1bb9;" target="_blank">voir la page web de l'UE</a> </div>
+		
+		<ul style="list-style:none;">
+			  <li class="font-weight-bold text-center text-danger" style="font-size:small;">Nous contacter: </li>
+			  <li class="list-inline-item" style="margin-right:15px; font-size:small;">
+				  <ul style="list-style:none;">
+				  <li class="font-weight-bold">BOUIFLANE Maryam</li>	
+				  <li ><img src="img/mail.jpg"/> mail : maryam.bouiflane@etu.univ-lyon1.fr</li>
+				  <li ><img src="img/insta.jpg"/> instagram : <a href="https://www.instagram.com/ma_bfl/?hl=fr" style="color:#4b1bb9;" target="blank"> @ma_bfl</a> </li> 
+				  </ul>
+			  </li>
+			  <li class="list-inline-item" style="margin-left:15px; font-size:small; ">
+				  <ul style="list-style:none;">
+				  <li class="font-weight-bold">ANGE NIRINA Michaela</li>	
+				  <li ><img src="img/mail.jpg"/> mail : michaela-rolland.ange-nirina@etu.univ-lyon1.fr</li>
+				  <li ><img src="img/insta.jpg"/> instagram : <a href="https://www.instagram.com/fujoshigami/?hl=fr" style="color:#4b1bb9;" target="blank"> @fujoshigami </a> </li> 
+				  </ul>
+			  </li>
+		</ul>
+	  </footer>
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <script src="js/jqBootstrapValidation.js"></script>
+	  <script src="js/contact_me.js"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

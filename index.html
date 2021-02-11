@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  
+  <script type="text/javascript" src="script.js"></script>
+  
+  <link rel="icon" type="image/jpg" href="img/logo.jpg" />
+  <title>Brain Training </title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/agency.min.css" rel="stylesheet">
+	<style>
+		
+	.navbar a:hover, .dropdown:hover .dropbtn {
+	  background-color: #4b1bb9;
+	}
+	.liste .boutonVersion {
+	  padding: 14px 16px;
+	  position:absolute;
+	  top:20%;
+	}
+
+	.typeHandicap {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  
+	  
+	}
+
+	.typeHandicap a {
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	
+	}
+
+	.typeHandicap a:hover {
+	  background-color: #ddd;
+	    
+	}
+
+	.liste:hover .typeHandicap {
+	  display: block;
+	  position:relative:
+	  top:40%;
+	}
+	
+	input::placeholder {
+      color: #4b1bb9;
+      }
+	
+	</style>
+</head>
+
+<body id="page-top">
+
+	  <!-- Barre du menu -->
+	  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+		<div class="container">
+			  <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo.jpg"/>Brain Training</a>
+			  <input type="text" id="recherche" placeholder="rechercher..."/>
+			<div>
+					<a class="btn btn-warning text-uppercase" style=" margin-left:10px; color:white;">OK</a>
+				  </div>
+			  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+			  
+			  <div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav text-uppercase ml-auto">
+						  
+						  <li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#portfolio">Exercices</a>
+						  <li class="nav-item">
+							<a class="nav-link js-scroll-trigger" href="#contact">Ajouter un exercice</a>
+						  </li>
+						  <li class="nav-item">
+							<!-- Merci de bien vouloir compléter le chemin -->
+							<a class="nav-link js-scroll-trigger" id="monprofil" href="file:///home/mon chemin vers l'archive/11704898_BOUIFLANE%20Maryam_ANGE%20NIRINA%20Michaela_11716941/profil.html">Se connecter</a>
+						  </li>
+						  <li >
+							<div class="liste">						
+								<a class="boutonVersion text-warning">Versions handicap<i class="fa fa-angle-double-down" style="color:red"></i></a>
+								<div class="typeHandicap">
+								  <a href="#">Handicap AUDITIF</a>
+								  <a href="#">Handicap VISUEL</a>
+								  <a href="#">Handicap MOTEUR</a>
+								  <a href="#">Handicap COGNITIF</a>
+								</div>
+							</div>
+						</li>
+					</ul>
+			  </div>
+		</div>
+	  </nav>
+
+	  <!-- Header -->
+	  <header class="masthead">
+		<div class="container">
+		  <div class="intro-text">
+			<div class="intro-lead-in font-italic">
+				<img src="img/c.jpg"/>
+				<br/>Transform your brain, use a memory maker
+			</div>
+		  </div>
+		</div>
+	  </header>
+
+	  <!-- Mes exercices -->
+	  <section class="bg-light page-section" id="portfolio">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Exercices</h2>
+					<h3 class="section-subheading text-muted">Voici la liste d'exercices:</h3>
+				</div>
+			</div>
+		</div>
+	  
+		<div id="table">
+			<div class="ligne" id="titre">
+					<div class="case titre">
+						<h6>Nom</h6>
+					</div>
+					<div class="case titre">
+						<h6>Type de l'exercice</h6>
+					</div>
+					<div class="case titre">
+						<h6>Description</h6>
+					</div>
+					<div class="case titre">
+						<h6>Public ciblé</h6>
+					</div>
+					<div class="case titre">
+						<h6>Durée de l'activité</h6>
+					</div>
+					<div class="case titre">
+						<h6>Niveau de difficulté</h6>
+					</div>
+					<div class="case titre">
+						<h6>Date de création</h6>
+					</div>
+					<div class="case titre">
+						<h6>Information sur l'auteur</h6>
+					</div>
+					<div class="case titre">
+						
+					</div>
+			</div>
+			<div class="ligne" id="1">
+					<div class="case" id="nom1" >
+						Exercice 1
+					</div>
+					<div class="case" id="type_act1">
+						Memo make
+					</div>
+					<div class="case" id="descr1">
+						se rappeler d'un paire d'image
+					</div>
+					<div class="case" id="pub_cible1">
+						Enfant et personnes agées
+					</div>
+					<div class="case" id="duree1">
+						5 min
+					</div>
+					<div class="case" id="niv1">
+						Elevée
+					</div>
+					<div class="case" id="date1">
+						09/2019
+					</div>
+					<div class="case" id="info1">
+						Rosalie, 1972
+					</div>
+					<div class="case" id="case bouton1">
+					<button type="submit" class="btn btn-danger btn-sm" id="suppr1" style="margin:5px" title="Supprimer" onclick="supprimer(1)">Supprimer</button>
+					<button type="submit" class="btn btn-secondary btn-sm" id="mod1" style="margin:5px" title="Modifier" onclick="modifier(1)">Modifier <img src="img/a.png"/></button>
+					</div>
+			</div>
+		</div>
+	  </section>
+
+	  <!-- Ajouter un exercice -->
+	  <section class="page-section" id="contact">
+		<div class="container">
+			  <div class="row">
+				 <div class="col-lg-12 text-center">
+					<h2 class="section-heading text-uppercase">Ajouter un exercice</h2>
+				 </div>
+			  </div>
+			  <div class="form-group" id="form">
+					<textarea class="casefoaj" id="nom" name="Nom de l'exercice" placeholder="Nom de l'exercice" rows="2" cols="20"></textarea> 
+					<textarea class="casefoaj" id="type_act" name="Type d'activité" placeholder="Type d'activité" rows="2" cols="20"></textarea> 
+					<textarea class="casefoaj" id="descr" name="Description" placeholder="Description" rows="2" cols="20"></textarea> 
+					<textarea class="casefoaj" id="pub_cible" name="Public ciblé" placeholder="Public ciblé" rows="2" cols="20"></textarea> <br/>
+					<textarea class="casefoaj" id="duree" name="Durée de l'activité" placeholder="Durée de l'activité" rows="2" cols="20"></textarea> 
+					<textarea class="casefoaj" id="niv" name="Niveau de difficulté" placeholder="Niveau de difficulté" rows="2" cols="20"></textarea> 
+					<textarea class="casefoaj" id="date" name="Date de création" placeholder="Date de création" rows="2" cols="20"></textarea> 
+					<textarea class="casefoaj" id="info" name="Information sur l'auteur" placeholder="Information sur l'auteur" rows="2" cols="20"></textarea>
+			  </div>
+			  <div class="col-lg-12 text-center">
+				<button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"  onclick="fajouter();" type="submit">ajouter</button>
+			  </div>
+		 </div>
+	  </section>
+
+	  <!-- Footer -->
+	  <footer class="text-center">
+		<div class="blockquote-footer font-italic">Site réalisé dans le contexte du cour d'IHM : <a href="https://perso.liris.cnrs.fr/stephanie.jean-daubias/enseignement/IHM/" style="color:#4b1bb9;" target="_blank">voir la page web de l'UE</a> </div>
+		
+		<ul style="list-style:none;">
+			  <li class="font-weight-bold text-center text-danger" style="font-size:small;">Nous contacter: </li>
+			  <li class="list-inline-item" style="margin-right:15px; font-size:small;">
+				  <ul style="list-style:none;">
+				  <li class="font-weight-bold">BOUIFLANE Maryam</li>	
+				  <li ><img src="img/mail.jpg"/> mail : maryam.bouiflane@etu.univ-lyon1.fr</li>
+				  <li ><img src="img/insta.jpg"/> instagram : <a href="https://www.instagram.com/ma_bfl/?hl=fr" style="color:#4b1bb9;" target="blank"> @ma_bfl</a> </li> 
+				  </ul>
+			  </li>
+			  <li class="list-inline-item" style="margin-left:15px; font-size:small; ">
+				  <ul style="list-style:none;">
+				  <li class="font-weight-bold">ANGE NIRINA Michaela</li>	
+				  <li ><img src="img/mail.jpg"/> mail : michaela-rolland.ange-nirina@etu.univ-lyon1.fr</li>
+				  <li ><img src="img/insta.jpg"/> instagram : <a href="https://www.instagram.com/fujoshigami/?hl=fr" style="color:#4b1bb9;" target="blank"> @fujoshigami </a> </li> 
+				  </ul>
+			  </li>
+		</ul>
+	  </footer>
+
+	  <!-- Bootstrap core JavaScript -->
+	  <script src="vendor/jquery/jquery.min.js"></script>
+	  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+	  <!-- Plugin JavaScript -->
+	  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+	  <!-- Contact form JavaScript -->
+	  <script src="js/jqBootstrapValidation.js"></script>
+	  <script src="js/contact_me.js"></script>
+
+	  <!-- Custom scripts for this template -->
+	  <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>
